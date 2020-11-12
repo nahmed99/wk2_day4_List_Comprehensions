@@ -16,4 +16,5 @@ print(evens_squared)
 # List comprehension allows us to write a single line of code and
 # do something powerful with a List while the list is being created.
 
-evens_squared_comp = []
+evens_squared_comp = [kidda for kidda in numbers] # Note the syntax!
+print(evens_squared_comp)
