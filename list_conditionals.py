@@ -21,7 +21,7 @@ print(evens_squared)
 # List comprehension allows us to write a single line of code and
 # do something powerful with a List while the list is being created.
 
-# syntax is ["output" "for loop" "optional conditionals"] - the output variable name needs 
+# syntax is ["output"   "for loop"   "optional conditionals"] - the output variable name needs 
 # to be the same as the one used in the for loop.
 
 #evens_squared_comp = [kidda * kidda for kidda in numbers if kidda %2 ==0] # Note the syntax!
