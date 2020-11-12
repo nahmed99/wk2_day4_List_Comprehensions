@@ -17,6 +17,6 @@ long_names = [chicken for chicken in chicken_names if len(chicken) > 10]
 print(long_names)
 
 
-H_start_names = [chicken for chicken in chicken_names if chicken[0] == 'H'] 
-print(H_start_names)
+start_names_H = [chicken for chicken in chicken_names if chicken[0] == 'H'] 
+print(start_names_H)
 
